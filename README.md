@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://HunterDrakar.github.io/Gamerflix/">
     <img 
-         src="https://github.com/HunterDrakar/Gamerflix/blob/master/img/readme.png" 
+         src="https://github.com/HunterDrakar/Gamerflix/blob/master/img/readme.jpg" 
          alt="Site Interface" 
     />
   <br />
