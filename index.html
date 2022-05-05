@@ -32,55 +32,131 @@
     
     <!-- Main -->
     <main>
-        <div class="jogo-principal">
+        <div class="jogo-principal" id="principal">
             <div class="container">
-                <h3 class="titulo">Horizon Forbidden West</h3>
-                <p class="descricao">Horizon Forbidden West continues Aloy's story as she moves west to a far-future America to brave a majestic, but dangerous frontier where she'll face awe-inspiring machines and mysterious new threats. Only available for Playstation platforms.</p>
+                <h3 class="titulo" id="titulo">Horizon Forbidden West</h3>
+                <p class="descricao" id="descricao">Horizon Forbidden West continues Aloy's story as she moves west to a far-future America to brave a majestic, but dangerous frontier where she'll face awe-inspiring machines and mysterious new threats. Only available for Playstation platforms.</p>
             </div>
             <div class="botoes">
-            <button onclick="javascript:newPopup"  role="button" class="botao"><i class="fa-solid fa-play"></i>ASSISTIR AGORA</button>
-            <button onclick="javascript:newPopup"  role="button" class="botao"><i class="fa-solid fa-circle-info"></i>MAIS INFORMAÇÕES</button>
+                <a href="https://www.youtube.com/watch?v=UxDWGW7Z67I" target="_blank" id="bttrailer">
+                    <button onclick="javascript:newPopup"  role="button" class="botao" id="bttrailer"><i class="fa-solid fa-play"></i>ASSISTIR AGORA</button>
+                </a>
+                <a href="https://br.ign.com/horizon-forbidden-west/95974/news/ps4-ps5-horizon-forbidden-west-ganha-trailer-de-historia" target="_blank" id="btinfo">
+                    <button onclick="javascript:newPopup"  role="button" class="botao" id="btinfo"><i class="fa-solid fa-circle-info"></i>MAIS INFORMAÇÕES</button>
+                </a>
             </div>
         </div>
 
-        <!-- Carrossel -->
+        <!-- Carrossel Lançamentos -->
         <div class="carrossel-jogos">
             <h3 class="identificacoes">Lançamentos</h3>
             <div class="owl-carousel owl-theme">
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini1.jpg">
+                <div class="item" id="lanc1">
+                    <img class="box-jogos" src="./img/lançamento/lanc1.jpg">  <!-- Saints-row -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini2.jpg">
+                <div class="item" id="lanc2">
+                    <img class="box-jogos" src="./img/lançamento/lanc2.jpg" > <!-- outlast -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini3.jpg">
+                <div class="item" id="lanc3">
+                    <img class="box-jogos" src="./img/lançamento/lanc3.jpg" > <!-- Death Stranding -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini4.jpg">
+                <div class="item" id="lanc4">
+                    <img class="box-jogos" src="./img/lançamento/lanc4.jpg"> <!-- Red Dead Redemption -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini5.jpg">
+                <div class="item" id="lanc5">
+                    <img class="box-jogos" src="./img/lançamento/lanc5.jpg"> <!-- The last of us part 2 -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini6.jpg">
+                <div class="item" id="lanc6">
+                    <img class="box-jogos" src="./img/lançamento/lanc6.jpg"> <!-- Halo Infinite -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini7.jpg">
+                <div class="item" id="lanc7">
+                    <img class="box-jogos" src="./img/lançamento/lanc7.jpg"> <!-- Spider Man Miles Morales -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini8.jpg">
+                <div class="item" id="lanc8">
+                    <img class="box-jogos" src="./img/lançamento/lanc8.jpg"> <!-- Elden Ring -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini9.jpg">
+                <div class="item" id="lanc9">
+                    <img class="box-jogos" src="./img/lançamento/lanc9.jpg"> <!-- Chrono Cross -->
                 </div>
-                <div class="item" >
-                    <img class="box-jogos" src="img/mini10.jpg">
+                <div class="item" id="lanc10">
+                    <img class="box-jogos" src="./img/lançamento/lanc10.jpg"> <!-- Diablo 4 -->
                 </div>
             </div>
         </div>
 
+        <!-- Carrossel Ação -->
+        <div class="carrossel-jogos">
+            <h3 class="identificacoes">Ação</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item" id="acao1">
+                    <img class="box-jogos" src="./img/ação/ação1.jpg"> <!-- Hollow Night -->
+                </div>
+                <div class="item" id="acao2">
+                    <img class="box-jogos" src="./img/ação/ação2.jpg"> <!-- DMC 5 -->
+                </div>
+                <div class="item" id="acao3">
+                    <img class="box-jogos" src="./img/ação/ação3.jpg"> <!-- Ghost of Tsushima -->
+                </div>
+                <div class="item" id="acao4">
+                    <img class="box-jogos" src="./img/ação/ação4.jpg"> <!-- Saints Row -->
+                </div>
+                <div class="item" id="acao5">
+                    <img class="box-jogos" src="./img/ação/ação5.jpg"> <!--  Outlast -->
+                </div>
+                <div class="item" id="acao6">
+                    <img class="box-jogos" src="./img/ação/ação6.jpg"> <!-- Read Dead Redemption -->
+                </div>
+                <div class="item" id="acao7">
+                    <img class="box-jogos" src="./img/ação/ação7.jpg"> <!-- The last of us part 2 -->
+                </div>
+                <div class="item" id="acao8">
+                    <img class="box-jogos" src="./img/ação/ação8.jpg"> <!-- gta 5 -->
+                </div>
+                <div class="item" id="acao9">
+                    <img class="box-jogos" src="./img/ação/ação9.jpg"> <!-- Halo Infinite -->
+                </div>
+                <div class="item" id="acao10">
+                    <img class="box-jogos" src="./img/ação/ação10.jpg"> <!-- Spider Man Miles Morales -->
+                </div>
+            </div>
+        </div>
 
+        <!-- Carrossel Aventura -->
+        <div class="carrossel-jogos">
+            <h3 class="identificacoes">Aventura</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item" id="aventura1">
+                    <img class="box-jogos" src="./img/rpg/rpg1.jpg"> <!-- Elden Ring -->
+                </div>
+                <div class="item" id="aventura2">
+                    <img class="box-jogos" src="./img/rpg/rpg2.jpg"> <!-- Chrono Cross -->
+                </div>
+                <div class="item" id="aventura3">
+                    <img class="box-jogos" src="./img/rpg/rpg3.jpg"> <!-- The Witcher 3 -->
+                </div>
+                <div class="item" id="aventura4">
+                    <img class="box-jogos" src="./img/rpg/rpg4.jpg"> <!-- Dark Souls 3 -->
+                </div>
+                <div class="item" id="aventura5">
+                    <img class="box-jogos" src="./img/rpg/rpg5.jpg"> <!-- Chrono Trigger -->
+                </div>
+                <div class="item" id="aventura6">
+                    <img class="box-jogos" src="./img/rpg/rpg6.jpg"> <!-- BloodBorne -->
+                </div>
+                <div class="item" id="aventura7">
+                    <img class="box-jogos" src="./img/rpg/rpg7.jpg"> <!-- Final Fantasy XIV -->
+                </div>
+                <div class="item" id="aventura8">
+                    <img class="box-jogos" src="./img/rpg/rpg8.jpg"> <!-- Zelda 2 -->
+                </div>
+                <div class="item" id="aventura9">
+                    <img class="box-jogos" src="./img/rpg/rpg9.jpg"> <!-- Diablo 4 -->
+                </div>
+                <div class="item" id="aventura10">
+                    <img class="box-jogos" src="./img/rpg/rpg10.jpg"> <!-- Skyrim -->
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -89,6 +165,7 @@
     <script src="./js/owl/jquery.min.js"></script>
     <script src="./js/owl/owl.carousel.min.js"></script>
     <script src="./js/owl/setup.js"></script>
+    <script src="./js/owl/change-info.js"></script>
 
 </body>
 </html>
